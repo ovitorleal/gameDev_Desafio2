@@ -1,6 +1,5 @@
-# Flappy Game
+# JOGO FLAPPY BIRD
 
-![Flappy Game](./{3027BD21-AAF5-4D1B-915F-8BC89E5E3CF0}.png)
 
 ## Sobre o jogo
 Este é um jogo inspirado no famoso **Flappy Bird**. O jogador deve clicar para fazer o personagem voar, evitando os obstáculos e tentando alcançar a maior pontuação possível.
