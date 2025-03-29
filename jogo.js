@@ -77,7 +77,7 @@ function criaChao() {
   };
   return chao;
 }
-
+//colisao
 function fazColisao(flappyBird, chao) {
   let flappyBirdY = flappyBird.y + flappyBird.altura;
   let chaoY = chao.y;
@@ -88,7 +88,7 @@ function fazColisao(flappyBird, chao) {
 
   return false;
 }
-
+//cirando o boneco
 function criaFlappyBird() {
   let flappyBird = {
     spriteX: 0,
@@ -128,7 +128,7 @@ function criaFlappyBird() {
     atualizaOFrameAtual() {
       let intervaloDeFrames = 10;
       let passouOIntervalo = frames % intervaloDeFrames === 0;
-      // console.log('passouOIntervalo', passouOIntervalo)
+      
 
       if (passouOIntervalo) {
         let baseDoIncremento = 1;
